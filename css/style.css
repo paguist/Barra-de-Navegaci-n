@@ -1,0 +1,16 @@
+.nav{
+    display: flex;
+    background-color: darkslategrey;
+    width: 990px;
+    height:10px;
+    margin: 20px;
+    padding: 20px;
+}
+.nav-title{
+    align-self: center;
+}
+
+.nav.links{
+    display: flex;
+    align-self: center;
+}
