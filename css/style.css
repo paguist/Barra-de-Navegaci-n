@@ -1,16 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: darkslategrey;
     width: 990px;
     height:10px;
     margin: 20px;
     padding: 20px;
-}
-.nav-title{
-    align-self: center;
+    border-radius: 5px;
 }
 
-.nav.links{
+.nav-title{
+   margin: 0px;
+   color: antiquewhite;
+}
+
+.nav-links{
     display: flex;
-    align-self: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black;
+    color:antiquewhite;
+    background-color: rgb(0, 81, 255);
+    cursor: pointer;
+    font-size: 17px;
 }
